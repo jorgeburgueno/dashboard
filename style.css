@@ -22,6 +22,10 @@
     grid-row: 1 /-1;
     width: auto;
     
+    display: grid;
+    grid-template-rows: auto 1fr 1fr ;
+    align-items: center;
+    
 
 }
 
@@ -69,7 +73,23 @@
 .contenido {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-color: white;
-   
+    
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+.proyectos > .contenido {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+
+}
+.contenido > p {
+    
+}
+.contenido > a {
+    grid-row: 4/ 4 ;
+    grid-column: 2 /2;
 }
 
 h1 , p{
@@ -89,10 +109,36 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+.izquierda > a:visited { 
+    text-decoration: none; 
+    color: white;
+}
+
 li > a:visited { 
     text-decoration: none; 
     color: white; 
 }
+
+li > a:hover {
+    text-decoration: none; color:red;
+}
 a:hover { 
     text-decoration: none; color:red;
+ }
+a {
+    text-decoration: none;
+}
+ .dashboard {
+    padding: 20px;
+    font-size: 24px;
+ }
+
+ .opciones-arriba {
+   font-size: 24px;
+   justify-self: start;
+   margin: 0;
+   padding-left:10px ;
+ }
+ li {
+    margin-bottom: 10px;
  }
