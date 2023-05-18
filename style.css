@@ -9,19 +9,22 @@
 
 
 .header {
-    background-color: red;
+    background-color: #ffffff;
     grid-column: 2 / -2;
     height: auto;
 }
 
 .izquierda {
-    background-color: blue;
+    background-color: #38bdf8;
     grid-row: 1 /-1;
     width: auto;
+    
+
 }
 
+
 .content {
-    background-color: white;
+    background-color: #bfdbfe;
     grid-column: 2 / -1;
     grid-row: 2/-1;
 
