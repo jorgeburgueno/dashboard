@@ -1,3 +1,6 @@
+* , {
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     display: grid;
@@ -81,3 +84,15 @@ h1 , p{
 h3 {
     grid-column: 1 / -1;
 }
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li > a:visited { 
+    text-decoration: none; 
+    color: white; 
+}
+a:hover { 
+    text-decoration: none; color:red;
+ }
