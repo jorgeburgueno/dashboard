@@ -1,0 +1,61 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
+    height: 98vh;
+   
+}
+
+
+.header {
+    background-color: red;
+    grid-column: 2 / -2;
+    height: auto;
+}
+
+.izquierda {
+    background-color: blue;
+    grid-row: 1 /-1;
+    width: auto;
+}
+
+.content {
+    background-color: white;
+    grid-column: 2 / -1;
+    grid-row: 2/-1;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+    
+    
+}
+
+.proyectos {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+   
+}
+.tendencias {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+.anuncios {
+    
+}
+
+.contenido {
+    -webkit-box-shadow: -4px 1px 0px 0px #e67812; 
+    box-shadow: -4px 1px 0px 0px #f07807;
+    background-color: white;
+    padding: 10px;
+}
+h1 , p{
+    margin: 0;
+    padding: 0;
+  }
+
+.titulo {
+    font-weight: bolder;
+}
