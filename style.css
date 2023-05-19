@@ -18,8 +18,10 @@
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     align-items: center;
+    padding: 20px;
+    
     
 }
 
@@ -48,9 +50,20 @@ button {
     text-shadow: 1px 1px 3px #170517;
     border: solid #000000 2px;
     background: #38bdf8;
+    cursor: pointer;
   }
   button:hover {
     background: #5f5fba;
+  }
+  img {
+    width: 30px;
+  }
+  .hola {
+   display: flex;
+   align-items: center;
+  }
+  .mi-perfil {
+    justify-content: space-around;
   }
 
 .content {
@@ -191,7 +204,7 @@ a {
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #bfdbfe;
+  color: #697079;
 }
 
 .searchTerm:focus{
